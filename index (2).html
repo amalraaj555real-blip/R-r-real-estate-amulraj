@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R&R Real Estates | Your Dream... Our Priority...</title>
+  <meta name="description" content="R&R Real Estates, Somanur - residential homes, land sales and purchases, plots and properties, real estate consultation.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="brand">R<span>&amp;</span>R <small>Real Estates</small></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">&#9776;</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#lands">Lands</a>
+      <a href="#owner">Owner</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>R<span>&amp;</span>R REAL ESTATES</h1>
+      <p class="tagline">Your Dream... Our Priority...</p>
+      <p>Residential homes, land sales &amp; purchases, plots and properties in Somanur and around.</p>
+      <div class="btns">
+        <a class="btn gold" href="tel:9655752929">&#128222; Call Now</a>
+        <a class="btn outline" href="#lands">View Lands</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <!-- Put your business card image as images/card.png -->
+      <img src="images/card.png" alt="R&R Real Estates visiting card">
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="grid four">
+      <div class="card"><div class="icon">&#127968;</div><h3>Residential Homes</h3><p>Ready-to-move and new homes for your family.</p></div>
+      <div class="card"><div class="icon">&#127806;</div><h3>Land Sales &amp; Purchases</h3><p>Safe and clear-title land buying and selling.</p></div>
+      <div class="card"><div class="icon">&#128205;</div><h3>Plots &amp; Properties</h3><p>DTCP / approved plots in good locations.</p></div>
+      <div class="card"><div class="icon">&#129309;</div><h3>Real Estate Consultation</h3><p>Honest advice on price, documents and investment.</p></div>
+    </div>
+  </section>
+
+  <!-- LANDS -->
+  <section id="lands" class="section alt">
+    <h2>Land &amp; Property Listings</h2>
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="plot">Plots</button>
+      <button class="filter" data-filter="agri">Agri Land</button>
+      <button class="filter" data-filter="home">Homes</button>
+    </div>
+
+    <div class="grid three" id="landGrid">
+      <!-- Replace images/land1.jpg ... with your real photos. Edit text freely. -->
+      <article class="land" data-type="plot">
+        <img src="images/land1.jpg" alt="Plot for sale" onerror="this.classList.add('noimg')">
+        <div class="info">
+          <span class="tag">Plot</span>
+          <h3>Approved Plot - Somanur</h3>
+          <p>Size: 2400 sq.ft &nbsp;|&nbsp; Price: Call us</p>
+          <a class="btn small" href="#contact" data-enquire="Approved Plot - Somanur">Enquire</a>
+        </div>
+      </article>
+
+      <article class="land" data-type="agri">
+        <img src="images/land2.jpg" alt="Agricultural land" onerror="this.classList.add('noimg')">
+        <div class="info">
+          <span class="tag">Agri Land</span>
+          <h3>Farm Land - Karumathampatty</h3>
+          <p>Size: 2 Acres &nbsp;|&nbsp; Price: Call us</p>
+          <a class="btn small" href="#contact" data-enquire="Farm Land - Karumathampatty">Enquire</a>
+        </div>
+      </article>
+
+      <article class="land" data-type="home">
+        <img src="images/land3.jpg" alt="House for sale" onerror="this.classList.add('noimg')">
+        <div class="info">
+          <span class="tag">Home</span>
+          <h3>Independent House</h3>
+          <p>3 BHK &nbsp;|&nbsp; Price: Call us</p>
+          <a class="btn small" href="#contact" data-enquire="Independent House">Enquire</a>
+        </div>
+      </article>
+
+      <article class="land" data-type="plot">
+        <img src="images/land4.jpg" alt="Plot for sale" onerror="this.classList.add('noimg')">
+        <div class="info">
+          <span class="tag">Plot</span>
+          <h3>Corner Plot - Main Road</h3>
+          <p>Size: 1800 sq.ft &nbsp;|&nbsp; Price: Call us</p>
+          <a class="btn small" href="#contact" data-enquire="Corner Plot - Main Road">Enquire</a>
+        </div>
+      </article>
+
+      <article class="land" data-type="agri">
+        <img src="images/land5.jpg" alt="Coconut farm" onerror="this.classList.add('noimg')">
+        <div class="info">
+          <span class="tag">Agri Land</span>
+          <h3>Coconut Farm</h3>
+          <p>Size: 3 Acres &nbsp;|&nbsp; Price: Call us</p>
+          <a class="btn small" href="#contact" data-enquire="Coconut Farm">Enquire</a>
+        </div>
+      </article>
+
+      <article class="land" data-type="home">
+        <img src="images/land6.jpg" alt="Villa" onerror="this.classList.add('noimg')">
+        <div class="info">
+          <span class="tag">Home</span>
+          <h3>Modern Villa</h3>
+          <p>4 BHK &nbsp;|&nbsp; Price: Call us</p>
+          <a class="btn small" href="#contact" data-enquire="Modern Villa">Enquire</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- OWNER -->
+  <section id="owner" class="section">
+    <h2>Meet the Owner</h2>
+    <div class="owner">
+      <img src="images/owner.jpg" alt="Amalraj B" onerror="this.classList.add('noimg')">
+      <div>
+        <h3>Amalraj B</h3>
+        <p class="role">Owner, R&amp;R Real Estates</p>
+        <p>With a focus on trust and transparency, Amalraj B helps families find the right home, plot or land. Your dream is our priority.</p>
+        <p><strong>Mobile:</strong> <a href="tel:9655752929">9655752929</a> / <a href="tel:9655957383">9655957383</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <h2>Contact Us</h2>
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <p>&#128205; Karumathampatty, Somanur - 641659</p>
+        <p>&#128222; <a href="tel:9655752929">9655752929</a></p>
+        <p>&#128222; <a href="tel:9655957383">9655957383</a></p>
+        <iframe title="Map" loading="lazy"
+          src="https://www.google.com/maps?q=Karumathampatty+Somanur+641659&output=embed"></iframe>
+      </div>
+
+      <form id="enquiryForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="tel" id="phone" placeholder="Your Mobile Number" required>
+        <input type="text" id="property" placeholder="Property (Plot / Land / Home)">
+        <textarea id="msg" rows="4" placeholder="Your message"></textarea>
+        <button class="btn gold" type="submit">Send on WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> R&amp;R Real Estates - Your Dream... Our Priority...</p>
+  </footer>
+
+  <a class="float-call" href="tel:9655752929" aria-label="Call">&#128222;</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
